@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.weappe{
+    background-color: gray;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    background: #f2f2f2;
+}
+.weappe .owl-carousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weappe .owl-carousel .card{
+    height: 250px;
+    width: 100%;
+}
+.card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
